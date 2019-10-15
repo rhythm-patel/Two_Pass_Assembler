@@ -1,7 +1,7 @@
-# Two_Pass_Assembler
+# Two Pass Assembler
 A Two Pass Assembler implementation in Python
 
-This is a 2-pass Assembler the capacity to handle OpCodes mentioned below and variables. Just like any standard 2-pass Assembler, it scans through the code twice, 1st time to find out how long the machine code will be and storing the OpCodes in the Intermediate Table and hence the address of labels and storing them in the Symbol Table. Then the actual Machine Code is generated using the Intermediate Table and Symbol Table.
+This is a two pass Assembler for a 12-bit Accumulator the capacity to handle OpCodes mentioned below and variables. Just like any standard two pass Assembler, it scans through the code twice, 1st time to find out how long the machine code will be and storing the OpCodes in the Intermediate Table and hence the address of labels and storing them in the Symbol Table. Then the actual Machine Code is generated using the Intermediate Table and Symbol Table.
 
 ## The assembler handles the following Assembly OpCodes:
 
